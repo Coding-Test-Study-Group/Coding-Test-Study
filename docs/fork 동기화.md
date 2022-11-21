@@ -2,13 +2,15 @@
 
 # ✅ 동기화 확인
 
-아래 두 가지 방법 중 편한 방법으로 진행해주세요
+아래 두 가지 방법 중 편한 방법으로 진행해 주세요
+
+---
 
 ## ☝️ Github에서 Web UI로 확인
 
 - github에서 fork한 저장소를 들어가 아래 사진과 같이 동기화 설정
 
-![[Pasted image 20221121115548.png]]
+![Pasted image 20221121115548](https://user-images.githubusercontent.com/70932170/203035110-4e669c97-c100-46f6-bfc1-deac4efab035.png)
 
 ## ✌️ 명령어로 확인
 
@@ -41,22 +43,29 @@ $ git remote -v
 > upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
 ```
 
+---
+
 # 👀 fetch & merge (최신 커밋 내역 가져오기)
 
-> `fetch` : 최신 커밋 내역을 가져오는 것(`merge`는 하지 않음)
-> `pull` : 최신 커밋 내역을 가져온 후, 로컬 저장소에 자동으로 `merge`
+>`fetch` : 최신 커밋 내역을 가져오는 것(`merge`는 하지 않음)
+>
+>`pull` : 최신 커밋 내역을 가져온 후, 로컬 저장소에 자동으로 `merge`
+>
+>💡 `pull` = `fetch` + `merge`
 
-> 💡 `pull` = `fetch` + `merge`
+아래 두 가지 방법 중 편한 방법으로 진행해주세요
 
-> 아래 두 가지 방법 중 편한 방법으로 진행해주세요
+---
 
 ## ☝️ Github에서 Web UI로 커밋 내역 가져오기
 
-![[Pasted image 20221121115556.png]]
+![Pasted image 20221121115556](https://user-images.githubusercontent.com/70932170/203035130-2478a370-e710-4281-a7f4-f86e96550ae9.png)
 
 - 예시
 
-![[Pasted image 20221121145426.png]]
+![Pasted image 20221121145426](https://user-images.githubusercontent.com/70932170/203035153-bf4e10e5-fdfc-492e-b775-f06258e391c7.png)
+
+## ✌️ 명령어로 확인
 
 ### 1. 최신 커밋 내역 가져오기
 
@@ -64,7 +73,7 @@ $ git remote -v
 
 ```bash
 $ git fetch upstream
-%3E remote: Counting objects: 75, done.
+> remote: Counting objects: 75, done.
 > remote: Compressing objects: 100% (53/53), done.
 > remote: Total 62 (delta 27), reused 44 (delta 9)
 > Unpacking objects: 100% (62/62), done.
@@ -101,7 +110,7 @@ $ git merge upstream/main
 
 ### 4. fork한 원격 저장소에 적용
 
-- 1번부터 3번까지 작업을 통해 PR을 보낼 저장소에서 최신 커밋 내역을 로컬 저장소로 불러왔다면, 이제 `push`를 통해 fork한 원격 저장소에 최신화 적용하기
+- [1번](#1-최신-커밋-내역-가져오기)부터 [3번](#3-로컬-저장소에-병합하기)까지 작업을 통해 PR을 보낼 저장소에서 최신 커밋 내역을 로컬 저장소로 불러왔다면, 이제 `push`를 통해 fork한 원격 저장소에 최신화 적용하기
 
 ```bash
 $ git push origin main
