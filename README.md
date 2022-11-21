@@ -11,7 +11,7 @@
 ## 📌 참여 방법
 
 - 코딩 테스트 문제를 풀고 각자 이름으로 된 폴더에 소스 코드 업로드
-  - [🧲 PR 규칙](https://github.com/Hyyena/Coding-Test-Study/blob/main/docs/%F0%9F%A7%B2%20PR%20%26%20Commit%20Rules.md)을 참고해 주세요
+  - [🧲 PR 규칙](https://github.com/Coding-Test-Study-Group/Coding-Test-Study/blob/main/docs/%F0%9F%A7%B2%20PR%20%26%20Commit%20Rules.md)을 참고해 주세요
 - 문제 풀이 이외에 **알고리즘**이나 **학습 관련 궁금한 점** 등은 언제든지 자유롭게 [Discussion](https://github.com/Coding-Test-Study-Group/Coding-Test-Study/discussions)에서 토론해요
 
 ---
