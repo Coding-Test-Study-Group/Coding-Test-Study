@@ -6,4 +6,4 @@ function solution(arr) {
         answer = result/arr.length
     }
     return answer;
-}
+} 
