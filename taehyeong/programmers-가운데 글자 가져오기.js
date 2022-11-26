@@ -12,7 +12,7 @@ function solution(s) {
            answer = arr[idx]
        }
     */
-
+ 
     //방법 2
     answer = s.substr(Math.ceil(s.length / 2) -1 ,s.length % 2 === 0 ? 2: 1);
     

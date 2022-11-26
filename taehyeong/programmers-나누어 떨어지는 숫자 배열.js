@@ -12,4 +12,4 @@ function solution(arr, divisor) {
         answer.push(-1)
     }
     return answer;
-}
+} 
