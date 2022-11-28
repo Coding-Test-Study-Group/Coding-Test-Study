@@ -1,0 +1,10 @@
+//https://school.programmers.co.kr/learn/courses/30/lessons/12939?language=javascript
+function solution(s) 
+{
+    var answer = '';
+    var sArr = s.split(" "); // 문자열을 배열화 시킵니다.
+    
+    answer = Math.min(...sArr) + " " + Math.max(...sArr); //...을 사용해 deconstructing, min / max를 구합니다.
+    
+    return answer;
+}
