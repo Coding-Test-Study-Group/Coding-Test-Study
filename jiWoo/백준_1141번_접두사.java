@@ -14,10 +14,11 @@ public class 백준_1141번_접두사 {
         }
         int result=0;
 
+        
         for (int i = 0; i < N; i++) {
             String now = words.poll().word;
             boolean check = false;
-            for (word w : words) {
+            for (word w : words) { // 다음 단어들에게 now가 접두어가 아니면 
                 if (w.word.indexOf(now)==0) {
                     check = true;
                 }
