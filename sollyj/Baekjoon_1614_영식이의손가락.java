@@ -2,7 +2,7 @@ package sollyj;
 
 import java.io.*;
 
-public class fingers {
+public class Baekjoon_1614_영식이의손가락 {
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

@@ -1,8 +1,8 @@
 package sollyj;
-//backjoon 1026
+
 import java.util.*;
 
-public class treasure {
+public class Baekjoon_1026_보물 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
