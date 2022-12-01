@@ -1,0 +1,21 @@
+name: automerge
+on:
+  pull_request_review:
+    types:
+    - opened
+
+  schedule:
+    - cron: "0 21 * * *"
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: automerge
+        uses: "pascalgn/automerge-action@v0.15.5"
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_FOR_CODING_TEST_STUDY }}
+          MERGE_LABELS: ""
+          MERGE_METHOD: "merge"
+          MERGE_FORKS: "true"
+          MERGE_DELETE_BRANCH: "true"
+          UPDATE_LABELS: "✨ Solved, automerge"
