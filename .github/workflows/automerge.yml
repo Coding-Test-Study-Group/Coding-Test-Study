@@ -5,7 +5,7 @@ on:
     - opened
 
   schedule:
-    - cron: "10 22 * * *"
+    - cron: "0 21 * * *"
 jobs:
   automerge:
     runs-on: ubuntu-latest
@@ -13,7 +13,7 @@ jobs:
       - name: automerge
         uses: "pascalgn/automerge-action@v0.15.5"
         env:
-          GITHUB_TOKEN: ${{ secrets.PR_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_FOR_CODING_TEST_STUDY }}
           MERGE_LABELS: ""
           MERGE_METHOD: "merge"
           MERGE_FORKS: "true"
