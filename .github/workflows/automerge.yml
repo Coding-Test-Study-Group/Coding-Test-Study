@@ -2,15 +2,16 @@ name: automerge
 on:
   pull_request:
     types:
-    - opened
+      - opened
 
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "20 1 * * *"
 jobs:
   automerge:
     runs-on: ubuntu-latest
     steps:
-      - name: automerge
+      - id: automerge
+        name: automerge
         uses: "pascalgn/automerge-action@v0.15.5"
         env:
           GITHUB_TOKEN: ${{ secrets.ACTIONS_FOR_CODING_TEST_STUDY }}
