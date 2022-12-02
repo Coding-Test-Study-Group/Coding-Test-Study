@@ -1,14 +1,13 @@
 name: automerge
 on:
   schedule:
-    - cron: '41 2 * * *'
+    - cron: "50 2 * * *"
 
 jobs:
   automerge:
     runs-on: ubuntu-latest
     steps:
-      - id: automerge
-        name: automerge
+      - name: automerge
         uses: "pascalgn/automerge-action@v0.15.5"
         env:
           GITHUB_TOKEN: ${{ secrets.ACTIONS_FOR_CODING_TEST_STUDY }}
