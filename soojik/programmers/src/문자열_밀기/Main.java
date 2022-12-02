@@ -1,15 +1,12 @@
 package 문자열_밀기;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Solution s = new Solution();
-
         System.out.println(s.solution("hello", "ohell"));
-        System.out.println(s.solution("apple", "elppa"));
-        System.out.println(s.solution("banana", "banana"));
+        System.out.println(s.solution("hello", "hello"));
     }
 }
-
 class Solution {
     public int solution(String A, String B) {
         int answer = 0;
