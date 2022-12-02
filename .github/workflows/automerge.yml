@@ -5,7 +5,7 @@ on:
     - opened
 
   schedule:
-    - cron: "33 0 * * *"
+    - cron: "40 0 * * *"
 jobs:
   automerge:
     runs-on: ubuntu-latest
