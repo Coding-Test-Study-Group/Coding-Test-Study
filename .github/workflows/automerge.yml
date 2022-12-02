@@ -4,7 +4,7 @@ on:
     types: [opened, reopened]
       
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '20 2 * * *'
 
 jobs:
   automerge:
@@ -15,8 +15,8 @@ jobs:
         uses: "pascalgn/automerge-action@v0.15.5"
         env:
           GITHUB_TOKEN: ${{ secrets.ACTIONS_FOR_CODING_TEST_STUDY }}
-          MERGE_LABELS: ""
+          MERGE_LABELS: "!❔Unresolved"
           MERGE_METHOD: "merge"
           MERGE_FORKS: "true"
           MERGE_DELETE_BRANCH: "true"
-          UPDATE_LABELS: "✨ Solved, automerge"
+          UPDATE_LABELS: "✨ Solved, 🧲 automerge"
