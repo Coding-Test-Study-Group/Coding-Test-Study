@@ -1,7 +1,7 @@
 name: automerge
 on:
   schedule:
-    - cron: "41 3 * * *"
+    - cron: "0 21 * * *"
 
 jobs:
   automerge:
@@ -15,4 +15,4 @@ jobs:
           MERGE_METHOD: "merge"
           MERGE_FORKS: "true"
           MERGE_DELETE_BRANCH: "true"
-          UPDATE_LABELS: "✨ Solved, 🧲 automerge"
+          UPDATE_LABELS: "automerge"
