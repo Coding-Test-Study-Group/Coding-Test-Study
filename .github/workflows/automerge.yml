@@ -1,11 +1,11 @@
 name: automerge
 on:
-  schedule:
-    - cron: '50 1 * * *'
-    
   pull_request:
-    types:
-      - opened
+    types: [opened, reopened]
+      
+  schedule:
+    - cron: '0 2 * * *'
+
 jobs:
   automerge:
     runs-on: ubuntu-latest
