@@ -4,7 +4,7 @@ function solution(age) {
     arr2 = String(age).split("")
     for(let i=0;i<arr2.length;i++){
         answer += arr[arr2[i]]
-    }
+    } 
     
     return answer;
 }
