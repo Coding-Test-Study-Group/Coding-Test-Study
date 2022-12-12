@@ -1,4 +1,4 @@
-package jiWoo;
+
 import java.util.*;
 public class 백준_12865번_평범한배낭 {
     public static void main(String[] args){

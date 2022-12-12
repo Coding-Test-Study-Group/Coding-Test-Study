@@ -1,4 +1,4 @@
-package jiWoo;
+
 import java.util.*;
 public class SWEA_1206_View{
     static int N;

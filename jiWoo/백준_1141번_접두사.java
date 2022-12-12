@@ -1,4 +1,3 @@
-package jiWoo;
 
 import java.util.*;
 
@@ -12,19 +11,19 @@ public class 백준_1141번_접두사 {
             String now = sc.next();
             words.add(new word(now.length(), now));
         }
-        int result=0;
+        int result = 0;
 
-        
         for (int i = 0; i < N; i++) {
             String now = words.poll().word;
             boolean check = false;
-            for (word w : words) { // 다음 단어들에게 now가 접두어가 아니면 
-                if (w.word.indexOf(now)==0) {
+            for (word w : words) { // 다음 단어들에게 now가 접두어가 아니면
+                if (w.word.indexOf(now) == 0) {
                     check = true;
                 }
             }
-            if(!check) result++;
-        
+            if (!check)
+                result++;
+
         }
 
         System.out.println(result);
