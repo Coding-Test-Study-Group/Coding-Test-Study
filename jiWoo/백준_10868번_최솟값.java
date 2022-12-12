@@ -1,4 +1,4 @@
-package jiWoo;
+
 import java.util.*;
 
 public class 백준_10868번_최솟값 {

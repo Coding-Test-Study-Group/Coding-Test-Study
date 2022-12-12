@@ -1,4 +1,3 @@
-package jiWoo;
 
 import java.util.*;
 

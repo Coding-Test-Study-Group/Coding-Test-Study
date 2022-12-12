@@ -1,4 +1,4 @@
-package jiWoo;
+
 import java.util.*;
 public class 백준_11051_이항계수2 {
 

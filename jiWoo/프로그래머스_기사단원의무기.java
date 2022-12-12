@@ -1,4 +1,4 @@
-package jiWoo;
+
 
 public class 프로그래머스_기사단원의무기 {
     public int solution(int number, int limit, int power) {

@@ -1,4 +1,4 @@
-package jiWoo;
+
 import java.util.*;
 public class 백준_2775번_부녀회장이될테야 {
     public static void main(String[] args){
