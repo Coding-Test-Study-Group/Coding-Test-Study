@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SWEA_1206_View",
+            "request": "launch",
+            "mainClass": "jiWoo.SWEA_1206_View",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch 백준_10868번_최솟값",
+            "request": "launch",
+            "mainClass": "jiWoo.백준_10868번_최솟값",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch 백준_11051_이항계수2",
+            "request": "launch",
+            "mainClass": "jiWoo.백준_11051_이항계수2",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch 백준_1141번_접두사",
+            "request": "launch",
+            "mainClass": "jiWoo.백준_1141번_접두사",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch 백준_11437번_LCA",
+            "request": "launch",
+            "mainClass": "jiWoo.백준_11437번_LCA",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch 백준_11505번_구간곱구하기",
+            "request": "launch",
+            "mainClass": "jiWoo.백준_11505번_구간곱구하기",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch 백준_14226번_이모티콘",
+            "request": "launch",
+            "mainClass": "jiWoo.백준_14226번_이모티콘",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baekjoon_11286_절댓값힙",
+            "request": "launch",
+            "mainClass": "sollyj.Baekjoon_11286_절댓값힙",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baekjoon_11899_괄호",
+            "request": "launch",
+            "mainClass": "sollyj.Baekjoon_11899_괄호",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baekjoon_1253_좋은수",
+            "request": "launch",
+            "mainClass": "sollyj.Baekjoon_1253_좋은수",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baekjoon_17298_오큰수",
+            "request": "launch",
+            "mainClass": "sollyj.Baekjoon_17298_오큰수",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baekjoon_1874_스택수열",
+            "request": "launch",
+            "mainClass": "sollyj.Baekjoon_1874_스택수열",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baekjoon_1940_주몽",
+            "request": "launch",
+            "mainClass": "sollyj.Baekjoon_1940_주몽",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Baekjoon_2018_수들의합5",
+            "request": "launch",
+            "mainClass": "sollyj.Baekjoon_2018_수들의합5",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch baekjoon_1448_삼각형만들기",
+            "request": "launch",
+            "mainClass": "sollyj.baekjoon_1448_삼각형만들기",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch fingers",
+            "request": "launch",
+            "mainClass": "sollyj.fingers",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch prefixSum",
+            "request": "launch",
+            "mainClass": "sollyj.prefixSum",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch prefixSum_2",
+            "request": "launch",
+            "mainClass": "sollyj.prefixSum_2",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch treasure",
+            "request": "launch",
+            "mainClass": "sollyj.treasure",
+            "projectName": "Coding-Test-Study_af8b389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "문자열_밀기.Main",
+            "projectName": "Coding-Test-Study_af8b389e"
+        }
+    ]
+}
