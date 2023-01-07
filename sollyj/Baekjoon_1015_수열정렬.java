@@ -7,6 +7,21 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
+class mData implements Comparable<mData> {
+	int value;
+	int index;
+
+	public mData(int value, int index) {
+		this.value = value;
+		this.index = index;
+	}
+
+	@Override
+	public int compareTo(mData o) {
+		return this.value - o.value;    // value기준 오름차순
+	}
+}
+
 public class Baekjoon_1015_수열정렬 {
 	public static void main(String[] args) {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
