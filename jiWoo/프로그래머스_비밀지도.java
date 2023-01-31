@@ -49,4 +49,40 @@ public class 프로그래머스_비밀지도 {
         }
         return answer;
     }
+
+    //  10진수->2진수 함수 이용한 풀이
+    public String[] solution2(int n, int[] arr1, int[] arr2) {
+        String[] answer = new String[n];
+        String [] ar1=new String[n];
+        String [] ar2=new String[n];
+        for(int i=0; i<n; i++){// 10진수 -> 2진수 진법 변환
+            ar1[i]=Integer.toBinaryString(arr1[i]);
+            ar2[i]=Integer.toBinaryString(arr2[i]);
+            // n 크기의 길이 맞추기
+            int len1=n-ar1[i].length();
+            int len2=n-ar2[i].length();
+            for(int a=0; a<len1;a++){
+                ar1[i]="0"+ar1[i];
+            }
+            for(int a=0; a<len2;a++){
+                ar2[i]="0"+ar2[i];
+            }
+        }
+        // 2진수로 변한 값 들을 비교
+        for(int i=0;i<n;i++){
+            String result="";
+            for(int j=0; j<n;j++){
+                if(ar1[i].charAt(j)=='1' || ar2[i].charAt(j)=='1'){
+                    // 둘 중 하나 1(#)이면 # 추가
+                    result+="#";
+                }else{ // 둘 다 0이면 공백 추가
+                    result+=" ";
+                }
+            }
+            answer[i]=result;
+        }
+
+        return answer;
+    }
 }
+
