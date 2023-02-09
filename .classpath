@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry excluding="jiWoo/|soojik/programmers/src/|wodb73/src/" kind="src" path=""/>
-	<classpathentry kind="src" path="jiWoo"/>
-	<classpathentry kind="src" path="soojik/programmers/src"/>
-	<classpathentry kind="src" path="wodb73/src"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
