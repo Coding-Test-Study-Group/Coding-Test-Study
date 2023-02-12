@@ -15,4 +15,5 @@ jobs:
           MERGE_METHOD: "merge"
           MERGE_FORKS: "true"
           MERGE_DELETE_BRANCH: "true"
+          MERGE_COMMIT_MESSAGE: "pull-request-title"
           UPDATE_LABELS: "automerge"
