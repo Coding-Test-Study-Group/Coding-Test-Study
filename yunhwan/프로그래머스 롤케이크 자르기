@@ -1,0 +1,39 @@
+def solution(topping):
+    answer = 0
+    length = len(topping)
+    toppings = list(set(topping))
+    #동일 가짓수의 토핑만족 시 공평
+    
+    a = {}
+    b = {}
+    
+    #a에 토핑 넣어주기
+    for i in topping:
+        #새로운 토핑이 들어오면 1로 설정
+        if i not in a:
+            a[i]=1
+        #기존에 있다면 1추가
+        else:
+            a[i]+=1
+
+    for i in topping:
+         #b에 토핑 넣어주기
+        if i not in b:
+            b[i]=1
+        else:
+            b[i]+=1
+        #b에 들어간 토핑은 a에서 빼주기
+        #1개 남았었다면 제거
+        if a[i]==1:
+            a.pop(i)
+        #그 외의 경우 1씩 감소
+        else:
+            a[i]-=1
+        
+        #a,b 토핑의 개수가 동일할 때 정답 증가 
+        if len(a.keys()) == len(b.keys()):
+            answer+=1
+    
+    
+
+    return answer
