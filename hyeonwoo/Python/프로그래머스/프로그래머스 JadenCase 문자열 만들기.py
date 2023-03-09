@@ -4,9 +4,6 @@ import unittest
 def solution(s):
     answer = ""
 
-    # 숫자 체크용 변수
-    number_chk = 0
-
     # 공백 체크용 변수
     # 초기값을 1로 두어 첫 번째 문자가 알파벳 소문자일 경우, 대문자로 변환해주기 위함
     space_chk = 1
@@ -29,10 +26,9 @@ def solution(s):
             continue
 
         # 문자가 숫자일 경우(현재 문자의 아스키 값이 65보다 작다면)
+        # 정답 변수에 현재 문자를 추가해준 뒤, 다음 반복문 실행
         # (알파벳 소문자의 아스키 값은 65 ~ 90, 대문자의 아스키 값은 95 ~ 122)
-        # 숫자 체크용 변수 1 증가 후 정답 변수에 현재 문자를 추가해준 뒤, 다음 반복문 실행
         if ord(target) < 65:
-            number_chk += 1
             answer += target
             continue
 
